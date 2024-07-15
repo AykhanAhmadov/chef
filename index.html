@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__d-flex">
+          <div class="header__left">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+994 50 000 00 00">+994 50 000 00 00</a>
+          </div>
+          <div class="logo">
+            <h1>
+              <span class="l">L</span><span class="o">O</span
+              ><span class="g">G</span><span class="oo">O</span>
+            </h1>
+          </div>
+          <div class="header__right">
+            <i class="fa-solid fa-globe globe"></i>
+            <div class="language">
+               <span class="lang">En</span>
+              <ul class="langs">
+                <li>Ru</li>
+                <li>Az</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="nav__menu">
+      <div class="container">
+        <div class="menu__d-flex">
+          <h2>LOGO</h2>
+          <i class="fa-solid fa-bars humburger"></i>
+        </div>
+        <div class="navbar">   
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <div class="header__right">
+            <i class="fa-solid fa-globe"></i>
+            <div class="language__mob">
+               <span class="lang__mob">En</span>
+              <ul class="langs__mob">
+                <li>Ru</li>
+                <li>Az</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <section class="chef">
+        <div class="chef__d-flex">
+          <div class="chef__text">
+            <h3>Awaken Your <span>Inner Chef</span></h3>
+            <a class="more" href="#">Learn more</a>
+            <a class="watch__video" href="#">Watch the video</a>
+          </div>
+          <div class="chef__photo">
+            <img src="assets/svg/chef.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="about__us">
+        <div class="container">
+          <div class="d-flex">
+            <div class="about__text">
+              <h3>About us</h3>
+              <div class="text">
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                  consequuntur magni dolores eos qui ratione voluptatem sequi
+                  nesciunt.
+                  <br /><br />
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non numquam eius
+                  modi tempora incidunt ut labore et dolore magnam aliquam
+                  quaerat voluptatem.
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non numquam eius
+                  modi tempora incidunt ut labore et dolore magnam aliquam
+                  quaerat voluptatem.
+                </p>
+                <div class="btn">
+                  <a class="more" href="#">Learn more</a>
+                  <a class="watch__video" href="#">Watch the video</a>
+                </div>
+              </div>
+            </div>
+            <div class="about__img">
+              <img src="assets/svg/pizza.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="services__text">
+            <h3>Services</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <a class="more" href="#">Learn more</a>
+          </div>
+          <div class="services__slider">
+            <!-- Swiper -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper mySwiper service__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0313/abc4/09c7b8f8e069280f05f303662a7515db?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p6rzKD-VmJ29Miy2gF~xrYFOJPRkl3fovtA58lCTXkeWVFtGIo1vxe20xi9SDmzGBQeOgBPQp4q7BzvCPLxie0y13o23IC-M1S-BAqssI0EigwAyWNldlIGegJ11XOp2eHJEk3UlFnDVDL2xKSyU6Eix8H~mYbSdMj8dQuCJj4ZvqPDB2DjkGl8S4zfP3wlVSjKVz7EJSlNwQIkKo5VgBGvcVKp-yZueZgBxj67kTIBmhbpkSX5jmgv3DkqjQkjU0sHH-j-QgEbF5ClXegos7a0QJhitA68GRjVPnUxYjSVXMlEa1zAXWXuYB7sYLlIz68dg6qRPIIIm342RsAjqIg__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0313/abc4/09c7b8f8e069280f05f303662a7515db?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p6rzKD-VmJ29Miy2gF~xrYFOJPRkl3fovtA58lCTXkeWVFtGIo1vxe20xi9SDmzGBQeOgBPQp4q7BzvCPLxie0y13o23IC-M1S-BAqssI0EigwAyWNldlIGegJ11XOp2eHJEk3UlFnDVDL2xKSyU6Eix8H~mYbSdMj8dQuCJj4ZvqPDB2DjkGl8S4zfP3wlVSjKVz7EJSlNwQIkKo5VgBGvcVKp-yZueZgBxj67kTIBmhbpkSX5jmgv3DkqjQkjU0sHH-j-QgEbF5ClXegos7a0QJhitA68GRjVPnUxYjSVXMlEa1zAXWXuYB7sYLlIz68dg6qRPIIIm342RsAjqIg__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0313/abc4/09c7b8f8e069280f05f303662a7515db?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p6rzKD-VmJ29Miy2gF~xrYFOJPRkl3fovtA58lCTXkeWVFtGIo1vxe20xi9SDmzGBQeOgBPQp4q7BzvCPLxie0y13o23IC-M1S-BAqssI0EigwAyWNldlIGegJ11XOp2eHJEk3UlFnDVDL2xKSyU6Eix8H~mYbSdMj8dQuCJj4ZvqPDB2DjkGl8S4zfP3wlVSjKVz7EJSlNwQIkKo5VgBGvcVKp-yZueZgBxj67kTIBmhbpkSX5jmgv3DkqjQkjU0sHH-j-QgEbF5ClXegos7a0QJhitA68GRjVPnUxYjSVXMlEa1zAXWXuYB7sYLlIz68dg6qRPIIIm342RsAjqIg__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0313/abc4/09c7b8f8e069280f05f303662a7515db?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p6rzKD-VmJ29Miy2gF~xrYFOJPRkl3fovtA58lCTXkeWVFtGIo1vxe20xi9SDmzGBQeOgBPQp4q7BzvCPLxie0y13o23IC-M1S-BAqssI0EigwAyWNldlIGegJ11XOp2eHJEk3UlFnDVDL2xKSyU6Eix8H~mYbSdMj8dQuCJj4ZvqPDB2DjkGl8S4zfP3wlVSjKVz7EJSlNwQIkKo5VgBGvcVKp-yZueZgBxj67kTIBmhbpkSX5jmgv3DkqjQkjU0sHH-j-QgEbF5ClXegos7a0QJhitA68GRjVPnUxYjSVXMlEa1zAXWXuYB7sYLlIz68dg6qRPIIIm342RsAjqIg__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__"
+                    alt=""
+                  />
+                  <p>Lorem ipsum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h3>Products</h3>
+          <div class="d-grid">
+            <div class="product__img">
+              <img src="assets/svg/pizza1.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza3.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza2.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza1.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza3.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+            <div class="product__img">
+              <img src="assets/svg/pizza2.svg" alt="" />
+              <p>Lorem ipsum</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h3>Our team</h3>
+          <!-- Swiper -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper mySwiper team__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team__slider">
+                  <div class="team__text">
+                    <h5>Lorem ipsum</h5>
+                    <p>
+                      unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium, totam rem aperiam
+                    </p>
+                  </div>
+                  <div class="team__img">
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more__more">
+            <a class="see__more" href="#">see more</a>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h3>Contact us</h3>
+          <div class="contact__box">
+            <div class="contact__left">
+              <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="#">quasi architecto beatae vitae dicta sunt</a>
+              </div>
+              <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+994 55 555 55 55">+994 55 555 55 55</a>
+              </div>
+              <div class="mail">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:randommail@gmail.com">randommail@gmail.com</a>
+              </div>
+              <div class="clock">
+                <i class="fa-solid fa-clock"></i>
+                <span>Mon. — Fri:</span><span>08:00 - 17:00</span>
+              </div>
+            </div>
+            <div class="contact__right">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/12a9/e159/591075618427406eb4a77be400eced1f?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=faWW18YoprBBZv~sw4S~~HW9viDzEc2bbUAZ5UgnLMVf9jngOPCEUa8aPZLXziEL6hpdnzkr4nf3xKETq1lC3uH3CcNCwP8m49r-NRMo2ksVzCtQm4CHOzaUmbqRKJ22INgze0V30ylQTJZ-LoXHY77jZsrBEK~dprmMEPOTrITA5sbWf7lJ6gwaQjmnuimR8DQIayNeTw2qgOenwsSAVp05LK4HSKc7LWo-WdXqBI5IlAynPgi9EIvAv4TLD8A0-OvOU4BP8YI5O7Cz~cYXAu1ksepWQBsJ1g7oWcRBxKYRCL1s-ULOWmc-3FPZjh6rHtZyrVJSgPyU~rV7yytfag__"
+                alt=""
+              />
+              <i class="fa-solid fa-location-dot location1"></i>
+              <i class="fa-solid fa-location-dot location2"></i>
+              <i class="fa-solid fa-location-dot location3"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <i class="fa-solid fa-chevron-up to__top"></i>
+        <h2>LOGO</h2>
+        <div class="footer__top">
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+          </div>
+          <div class="footer__top-right">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal terms</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#">©2022 All Right Reserved. Developed by Webcoder</a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
